@@ -30,7 +30,7 @@ This keylogger uses libraries like:
 - `pynput` – for capturing keystrokes
 - `win32gui` – to get active window titles
 - `pyperclip` – to monitor clipboard changes
-- `schedule` & `threading` – for background tasks
+- `threading` – for background tasks
 - `logging` – to save all activity to a log file
 - `platform` – detect operating system
 
